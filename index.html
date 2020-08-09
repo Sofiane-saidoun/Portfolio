@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/reset-style.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="header-infos">
+      <p>
+        saiodun.sofiane@gmail.com
+      </p>
+      <div class="links">
+        <a href="#" class="linkedin"></a>
+        <a href="https://github.com/Sofiane-saidoun" class="github"></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100008206921622"
+          class="facebook"
+        ></a>
+      </div>
+    </div>
+    <nav class="topbar">
+      <a href="index.html" class="icone-menu"></a>
+      <a href="#about">A propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="responsive-menu">
+      <a href="#" id="button-menu"></a>
+    </div>
+    <header class="header">
+      <div class="header-main">
+        <h1>SOFIANE SAIDOUN</h1>
+        <p>&lt; Intégrateur / Developpeur Web Front-End /></p>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <article id="about" class="about">
+        <div class="main-container">
+          <h1>A propos</h1>
+          <div class="about-main">
+            <img src="image/me2.jpg" alt="" />
+
+            <p>
+              Bonjour, je m'appelle Sofiane et je suis un développeur web
+              junior. Passionné depuis toujours par l'informatique en général,
+              j'ai fait des études en télécommunications ou j'ai un master en
+              réseaux et télécoms, puis je me suis orienté vers le développement
+              qui me passionner beaucoup plus. Je porte également l'intérêt à
+              développer des applications Back-end.
+            </p>
+            <p>
+              Mon but est d’associer le design et la technologie, afin de créer
+              des sites internet ainsi que des applications web attractifs et
+              d'offrir de belles expériences utilisateur.
+            </p>
+            <p>
+              Je suis capable d’utiliser différentes technologies front-end tel
+              que les langages HTML5 & CSS3, JavaScript, avec les frameworks
+              Bootstrap et Vuejs et des outils de gestions de projets.
+            </p>
+
+            <p>
+              Je suis à l'écoute d'opportunités de développement de site et
+              application web. Je suis particulièrement intéressé par
+              l'intégration CSS ainsi que le développement en langage
+              JavaScript.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article id="skills" class="skills">
+        <div class="main-container">
+          <h1>Compétences</h1>
+          <div class="skills-contain">
+            <div class="card">
+              <h2>Langagues et Frameworks</h2>
+              <div class="unit">
+                <p>HTML 5</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 85%;">85%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>CSS 3</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>Javascript</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>SASS</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 70%;">70%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>Bootstrap</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 65%;">65%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>jQuery</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 65%;">65%</div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <h2>Outils et Logiciels</h2>
+              <div class="unit">
+                <p>VS Code</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 85%;">85%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>Git</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>Webpack</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 90%;">90%</div>
+                </div>
+              </div>
+              <div class="unit">
+                <p>NPM</p>
+                <div class="progress">
+                  <div class="progress-bar" style="--perc-width: 70%;">70%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>
+            <strong>En cours d'amélioration:</strong> VueJS, Ajax, NodeJS,
+            ExpressJS
+          </p>
+        </div>
+      </article>
+      <article id="contact" class="contact">
+        <div class="background-contact">
+          <div class="main-container">
+            <h1>Contact</h1>
+            <form method="POST" data-netlify="true" action="repons-form.html">
+              <div class="form-1">
+                <div class="form-div">
+                  <label for="nom">Nom: </label>
+                  <input
+                    type="text"
+                    id="nom"
+                    placeholder="Votre nom"
+                    required
+                  />
+                </div>
+                <div class="form-div">
+                  <label for="prenom">Prenom:</label>
+                  <input type="text" id="prenom" placeholder="Votre prenom" />
+                </div>
+              </div>
+              <div class="form-1">
+                <div class="form-div">
+                  <label for="email">E-mail:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    required
+                    placeholder="Votre e-mail"
+                  />
+                </div>
+                <div class="form-div">
+                  <label for="objet">Objet:</label>
+                  <input
+                    type="text"
+                    id="objet"
+                    placeholder="L'objet de votre message"
+                  />
+                </div>
+              </div>
+
+              <div class="form-div">
+                <label for="message">Message:</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Votre message"
+                  required
+                ></textarea>
+              </div>
+              <button class="boutton-contact" type="submit">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer class="footer">
+      <p>
+        Copyright © 2020 SOFIANE SAIDOUN
+      </p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
